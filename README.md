@@ -2,7 +2,7 @@
 
 Bom, a ideia aqui é simples, executar códigos em background usando flutter.
 
-O código deve fazer a coleta da latitude e longitude do usuario, e tambem conectar a um dispositivo bleutooth e salvar no localstorage.
+O código deve fazer a coleta da latitude e longitude do usuario, e tambem conectar a um dispositivo bluetooth e salvar no localstorage.
 
 Show!.
 
