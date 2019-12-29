@@ -37,3 +37,31 @@ class App : FlutterApplication(), PluginRegistry.PluginRegistrantCallback {
         }
 }
 ```
+
+Seu `MainActivity.kt` precisa estar dessa forma.
+
+Novamente, não esqueça do package.
+
+
+```
+import android.os.Bundle
+import androidx.annotation.NonNull
+
+import io.flutter.embedding.android.FlutterActivity
+import io.flutter.plugins.GeneratedPluginRegistrant
+import io.flutter.embedding.engine.FlutterEngine
+
+class MainActivity: FlutterActivity() {
+    override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
+        GeneratedPluginRegistrant.registerWith(flutterEngine)
+    }
+
+}
+```
+
+Mudar no seu `AndroidManifest.xml` esta propriedade.
+
+```
+android:name=".App"
+```
+
