@@ -26,3 +26,15 @@ As libs que vamos usar são.
 O melhor dos mundos seria se essa lib aqui tivesse suporte para IOS, como não tem, temos que usar a flutter_blue quando for IOS.
 - https://pub.dev/packages/flutter_bluetooth_serial
 - https://pub.dev/packages/workmanager
+
+
+## Links
+
+https://medium.com/vrt-digital-studio/flutter-workmanager-81e0cfbd6f6e
+https://github.com/vrtdev/flutter_workmanager/blob/feature/update-ios-implementation/example/lib/main.dart
+https://github.com/vrtdev/flutter_workmanager/blob/feature/update-ios-implementation/ANDROID_SETUP.md
+https://github.com/vrtdev/flutter_workmanager/tree/feature/update-ios-implementation/example/android/app/src/main/kotlin/be/tramckrijte/workmanager_example
+https://github.com/vrtdev/flutter_workmanager/blob/feature/update-ios-implementation/IOS_SETUP.md
+https://github.com/vrtdev/flutter_workmanager
+https://github.com/vrtdev/flutter_workmanager/tree/master/ios/Classes
+https://github.com/vrtdev/flutter_workmanager/issues/117
